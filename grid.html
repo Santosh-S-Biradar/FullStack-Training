@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*   .container {
+            background-color: aqua;
+            gap: 2px;
+            display: grid;
+           /*grid-template-columns: 1fr 1fr 1fr ;
+           grid-template-columns: repeat(3,2fr);
+            row-gap: 20px;
+            column-gap: 30px;
+            place-content: center start;}*/
+        .container > div{
+            margin: 20px;
+        }
+
+       /* .item{
+            padding: 30px;
+            margin: 20px;
+            height: 60px;
+            background-color: red;
+        }*/
+
+    .item1{
+        grid-area: header;
+    }
+    .item2{
+        grid-area: menu;
+    }
+    .item3{
+        grid-area: main;
+    }
+    .item4{
+        grid-area: aside;
+    }
+    .item5{
+        grid-area: footer;
+    }
+
+        
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">1</div>
+            <div class="item2">2</div>
+                <div class="item3">3</div>
+                    <div class="item4">4</div>
+                        <div class="item5">5</div>
+                            <div class="item">6</div>
+                                <div class="item">7</div>
+                                    <div class="item">8</div>
+                                    </div>
+        <script>
+        alert("welcome to my web page")
+        </script>
+                           
+</body>
+</html>

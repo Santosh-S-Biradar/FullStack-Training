@@ -1,0 +1,23 @@
+*{
+    background-color: rgb(214, 140, 97);
+    
+}
+h1{
+    border: 5px solid rgb(157, 167, 157);
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+} 
+
+div{
+    border: 5px solid red;
+    margin: 10px;
+    padding: 100px;
+    color: blanchedalmond;
+    font-size: large;
+
+}
+#hello{
+    color: #f1ebeb;
+    background: #d68a8a;
+}
